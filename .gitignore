@@ -1,0 +1,8 @@
+__pycache__
+dist/
+*.pyc
+.venv/
+*.swp
+.gitignore6
+*.save
+*.save.1
