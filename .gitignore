@@ -6,3 +6,4 @@ dist/
 .gitignore6
 *.save
 *.save.1
+gendiff/json_files/file1.json:Zone.Identifier
