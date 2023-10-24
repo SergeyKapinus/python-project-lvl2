@@ -7,3 +7,4 @@ dist/
 *.save
 *.save.1
 gendiff/json_files/file1.json:Zone.Identifier
+.coverage
