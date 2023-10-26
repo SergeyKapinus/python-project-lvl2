@@ -8,3 +8,7 @@ dist/
 *.save.1
 gendiff/json_files/file1.json:Zone.Identifier
 .coverage
+<<<<<<< HEAD
+=======
+coverage.xml
+>>>>>>> edb7a9b326b3bb2c675e1629d2e2ebe0b03f5229
