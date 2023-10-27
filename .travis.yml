@@ -1,3 +1,6 @@
+env:
+  global:
+    - CC_TEST_REPORTER_ID=eafb5edb64be8870346e629f6272cb6490c45adb8a7ecef220bfa8a000e6e385
 language: python
 python: 3.8
 
@@ -17,4 +20,4 @@ script:
   - make test-coverage
 
 after script:
-  - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT -r 'eafb5edb64be8870346e629f6272cb6490c45adb8a7ecef220bfa8a000e6e385'
+  - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
