@@ -40,4 +40,4 @@ jobs:
         env:
           CC_TEST_REPORTER_ID: ${{ secrets.TEST_REPORTER_ID }}
         run: |
-          ./cc-test-reporter after-build -r "$GITHUB_TOKEN"
+          ./cc-test-reporter after-build -r "$GITHUB_TOKEN" -t lcov
