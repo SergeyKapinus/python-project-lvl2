@@ -23,12 +23,3 @@ def dict_diff(file1, file2):
 
     result = json.dumps(diff, indent=2)
     return result.replace('"', '').replace(',', '')
-
-
-def generate_diff(path_file1, path_file2):
-    with open(path_file1, 'r') as f1, open(path_file2, 'r') as f2:
-
-        file1 = json.load(f1)
-        file2 = json.load(f2)
-
-    return dict_diff(file1, file2)
