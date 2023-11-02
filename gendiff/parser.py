@@ -1,4 +1,4 @@
-from generator import is_yaml, dict_diff
+from gendiff.generator import is_yaml, dict_diff
 import json
 import yaml
 
