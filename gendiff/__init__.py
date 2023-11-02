@@ -1,4 +1,4 @@
-from gendiff.parser import generate_diff
+from gendiff.generator import generate_diff
 
 
 __all__ = ('generate_diff',)
