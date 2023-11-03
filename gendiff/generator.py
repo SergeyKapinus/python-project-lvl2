@@ -34,7 +34,7 @@ def dict_diff(file1, file2):
     for key in file2:
         if key not in file1:
             diff[f'+ {key}'] = file2[key]
-    
+
     return create_diff_string(diff)
 
 
